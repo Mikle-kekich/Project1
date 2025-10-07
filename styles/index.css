@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family-b: InterB, sans-serif;
+    --font-family-m: InterM, sans-serif;
+    --font-family-r: InterR, sans-serif;
+    --font-family-l: InterL, sans-serif;
+    --font-family-Ir: ImprimaR, sans-serif;
+
+    --animation-speed: .3s;
+    --animation-func: ease;
+    --animation: var(--animation-speed) var(--animation-func);
+    
+    --color-black:#000000;
+    --color-black-l2:#221717; 
+    --color-white: #ffffff;
+    --color-black-l: #4a545c;
+    --color-blue: #4265DF;
+    --color-blue-l:#5298dd;
+    --color-gray: #D9D9D9;
+    --color-gray-l:#766D6D;
+    --color-gray-l2:#ededed;
+
+}

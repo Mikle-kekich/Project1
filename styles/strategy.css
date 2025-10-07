@@ -1,0 +1,98 @@
+.strtegy{
+    background: var(--color-white);
+    padding: 131px 100px 130px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strtegy_tetx{
+    
+    display: block;
+    height: 835px;
+    width: 632px;
+    margin-right: 20px;
+}
+
+.strtegy_main_text_title{
+    margin-top: 0;
+    padding-top: 0;
+    margin: 0;
+    color: var(--color-black-l2);
+    font-size: 50px;
+    font-family: var(--font-family-r);
+    margin-bottom: 4px;
+}
+
+.strtegy_main_text_subtitle{
+    margin: 0;
+    color: var(--color-gray-l);
+    font-size: 30px;
+    font-family: var(--font-family-Ir);
+    margin-bottom: 42px;
+
+}
+.strtegy_main_text_subtitle2{
+    margin: 0;
+    color: var(--color-gray-l);
+    font-size: 30px;
+    font-family: var(--font-family-Ir);
+    margin-bottom: 35px;
+}
+
+.strategy_list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.strategy_element_title{
+    margin: 0;
+    color: var(--color-black-l2);
+    font-size: 32px;
+    font-family: var(--font-family-Ir);
+    margin-bottom: 10px;
+    padding-left: 62px;
+}
+
+.strategy_element_subtitle{
+    margin: 0;
+    color: var(--color-gray-l);
+    font-size: 30px;
+    font-family: var(--font-family-Ir); 
+    padding-left: 62px;
+}
+
+.strategy_list li::before{
+    position: absolute;
+    flex-shrink: 0;
+    content: '';
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin-right: 20px;
+    background: url('../image/logo/galka.svg') center no-repeat;
+    
+}
+
+.strategy_list li{
+    margin-bottom: 46px;
+}
+.strategy_list li:last-child{
+    margin-bottom: 0;
+}
+
+
+.strategy_img{
+    display: block;
+    height: 938px;
+    width: 684px;
+    
+    
+}
+
+.strategy_img img{
+    height: 938px;
+    width: 684px;
+}
+
