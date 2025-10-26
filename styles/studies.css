@@ -136,8 +136,7 @@
 
 @media(max-width:490px){
     .studies{
-        padding-left: 200px;
-        padding-right: 200px;
+        padding: 70px;
     }
     .studies_text{
         text-align: center;
@@ -163,8 +162,7 @@
 
 @media(max-width:360px){
     .studies{
-        padding-left: 150px;
-        padding-right: 1500px;
+        padding: 50px;
     }
     .studies_text{
         text-align: center;
@@ -191,4 +189,5 @@
     .studies_card_text_subtitle{
         font-size: 15px;
     }
+    
 }
