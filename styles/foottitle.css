@@ -39,6 +39,8 @@
     color: var(--color-gray-l);
     font-family: var(--font-family-Ir);
     font-size: 15px;
+    outline: none;
+    border: none;
 }
 
 .foottitle_email::placeholder{
