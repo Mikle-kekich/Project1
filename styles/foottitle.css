@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.foottitle{
+    padding: 189px 455px 163px 455px ;
+    background: url("../image/backgrounds/Maskgroup.png") center no-repeat;
+    background-color: #0B1125;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foottitle_text{
+    color: var(--color-white);
+    font-family: var(--font-family-r);
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+.foottitle_knopky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footitle_button{
+    margin-left: 21px;
+}
+
+.foottitle_email{
+    width: 303px;
+    height: 50px;
+    background: var(--color-white);
+    color: var(--color-gray-l);
+    font-family: var(--font-family-Ir);
+    font-size: 15px;
+}
+
+.foottitle_email::placeholder{
+    padding: 16px 202px 17px 31px;
+}
+
+.footitle_button{
+    width: 131px;
+    height: 50px;
+}
