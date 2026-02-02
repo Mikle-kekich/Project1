@@ -93,6 +93,7 @@
 .strategy_img img{
     height: 938px;
     width: 684px;
+    border-radius: 12px;
 }
 
 @media(max-width:1450px){
